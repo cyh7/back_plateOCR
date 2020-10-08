@@ -1,0 +1,4 @@
+﻿  源.cpp
+d:\halcon_projects\project1\project1\源.cpp(8): warning C4326: “main”的返回类型应为“int”而非“float”
+d:\halcon_projects\project1\project1\源.cpp(19): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Project1.vcxproj -> D:\Halcon_projects\Project1\Debug\Project1.exe

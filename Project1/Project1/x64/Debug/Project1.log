@@ -1,0 +1,6 @@
+﻿  源.cpp
+d:\halcon_projects\project1\project1\源.cpp(248): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\halcon_projects\project1\project1\源.cpp(249): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\halcon_projects\project1\project1\源.cpp(263): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\halcon_projects\project1\project1\源.cpp(264): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  Project1.vcxproj -> D:\Halcon_projects\Project1\x64\Debug\Project1.exe

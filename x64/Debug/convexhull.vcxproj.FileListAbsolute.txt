@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\x64\Debug\convexhull.exe
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\x64\Debug\convexhull.pdb

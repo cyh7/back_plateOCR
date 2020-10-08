@@ -1,0 +1,16 @@
+﻿  convexhull.cpp
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\EDLIB\ED.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\EDLIB\EDColor.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\EDLIB\EDLines.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\EDLIB\EDCircles.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\convexhull.cpp(70,10): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\convexhull.cpp(71,10): warning C4244: “初始化”: 从“_Tp”转换到“int”，可能丢失数据
+          with
+          [
+              _Tp=double
+          ]
+  convexhull.vcxproj -> C:\Users\Administrator\Desktop\OpenCV_cbp\convexhull\x64\Debug\convexhull.exe

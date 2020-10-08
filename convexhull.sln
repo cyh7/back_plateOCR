@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convexhull", "convexhull.vcxproj", "{421FE8EB-DE04-4C75-834C-D1208152563C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Debug|x64.ActiveCfg = Debug|x64
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Debug|x64.Build.0 = Debug|x64
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Debug|x86.ActiveCfg = Debug|Win32
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Debug|x86.Build.0 = Debug|Win32
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Release|x64.ActiveCfg = Release|x64
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Release|x64.Build.0 = Release|x64
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Release|x86.ActiveCfg = Release|Win32
+		{421FE8EB-DE04-4C75-834C-D1208152563C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BAF3387-DE9F-4B8D-92DE-88A8D6C646BB}
+	EndGlobalSection
+EndGlobal

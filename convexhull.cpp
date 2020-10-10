@@ -1,15 +1,18 @@
 ﻿#include <iostream>
 #include <opencv2/opencv.hpp>
 #include <vector>
-#include "EDLIB/EDLib.h"
 #include <ctime>
+
+#include "EDLIB/EDLib.h"
+#include "solution_opencv.h"
+
 
 using namespace cv;
 using namespace std;
 
 RNG rng(12345);
 
-int main()
+int main1()
 {
 
 	// 图片路径换成本地的图片路径，注意是两个斜杠
@@ -145,6 +148,32 @@ int main()
 	waitKey(0);
 
 	return EXIT_SUCCESS;
+}
+
+
+int main()
+{
+
+	Mat src;
+	src = imread("back_plate2.bmp");
+
+	solution_opencv s1(src);
+	s1.timer_start();
+	//s1.show_src();//源图像
+	s1.solution_preprocess(2, 3, 3);//预处理， 降采样次数， 高斯滤波kSIZE, 中值滤波Ksize
+	s1.processed_to_threshold(THRESH_OTSU, 165);
+	//s1.show_dst();//显示预处理后的图像
+	s1.show_thres();
+	s1.get_roi();
+	s1.show_roi();
+	s1.remove_plate_holder();
+	//s1.show_roi();
+	s1.get_lines();
+	s1.timer_stop_output("preprocess");
+	waitKey();
+
+
+	return 0;
 }
 
 
